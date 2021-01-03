@@ -1,0 +1,83 @@
+{
+  "uid" : "cdf39ad68b4852ae",
+  "name" : "按订单号查询，订单号：1061246019",
+  "fullName" : "order_search.test_order_num.TestOrderSeach#test_OrderNumserarch",
+  "historyId" : "c4c8c3f7708b99739ea474807aadd9c7",
+  "time" : {
+    "start" : 1592118947421,
+    "stop" : 1592118947666,
+    "duration" : 245
+  },
+  "description" : "\n        订单号查找订单详情   用例面描述\n        ",
+  "descriptionHtml" : "<pre><code>    订单号查找订单详情   用例面描述\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "account_token",
+    "time" : {
+      "start" : 1592118947173,
+      "stop" : 1592118947420,
+      "duration" : 247
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "按订单号查询"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "订单查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "order_search"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_num"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderSeach"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "2681-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "order_search.test_order_num"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "order_num",
+    "value" : "1061246019"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdf39ad68b4852ae.json",
+  "parameterValues" : [ "1061246019" ]
+}

@@ -1,0 +1,63 @@
+{
+  "uid" : "c5183ccbad875d3a",
+  "name" : "test_error",
+  "fullName" : "order_search.test_order_num.TestOrderSeach#test_error",
+  "historyId" : "9229b33e048d2abef93f5a5bcee8ecef",
+  "time" : {
+    "start" : 1592118948447,
+    "stop" : 1592118948448,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "订单查询"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='不在windows平台上运行')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "order_search"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_num"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderSeach"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "2681-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "order_search.test_order_num"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='不在windows平台上运行')" ]
+  },
+  "source" : "c5183ccbad875d3a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid" : "1c5bf6dacda124ff",
+  "name" : "test_skip",
+  "fullName" : "order_search.test_order_num.TestOrderSeach#test_skip",
+  "historyId" : "ae4db23133e052a9023b9eb8c50ba7b6",
+  "time" : {
+    "start" : 1592119259672,
+    "stop" : 1592119259672,
+    "duration" : 0
+  },
+  "description" : "\n        该测试用用例跳过\n        ",
+  "descriptionHtml" : "<pre><code>    该测试用用例跳过\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 该测试用用例跳过",
+  "statusTrace" : "('order_search/test_order_num.py', 87, 'Skipped: 该测试用用例跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "订单查询"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('该测试用用例跳过')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "order_search"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_num"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderSeach"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "2824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "order_search.test_order_num"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip('该测试用用例跳过')" ]
+  },
+  "source" : "1c5bf6dacda124ff.json",
+  "parameterValues" : [ ]
+}

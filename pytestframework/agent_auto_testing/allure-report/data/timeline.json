@@ -1,0 +1,642 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "wenjian",
+    "children" : [ {
+      "name" : "2681-MainThread",
+      "children" : [ {
+        "name" : "test_error",
+        "uid" : "c5183ccbad875d3a",
+        "parentUid" : "c386dc18ed635bb1cbbac7c8c2a0280e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118948447,
+          "stop" : 1592118948448,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "6f92999688029b8c",
+        "parentUid" : "c386dc18ed635bb1cbbac7c8c2a0280e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118947670,
+          "stop" : 1592118948444,
+          "duration" : 774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "cdf39ad68b4852ae",
+        "parentUid" : "c386dc18ed635bb1cbbac7c8c2a0280e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118947421,
+          "stop" : 1592118947666,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      } ],
+      "uid" : "c386dc18ed635bb1cbbac7c8c2a0280e"
+    }, {
+      "name" : "2323-MainThread",
+      "children" : [ {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "c5e00267b5bd823a",
+        "parentUid" : "40d8046d536ce107f600b1bb559a4ea7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592117978486,
+          "stop" : 1592117978487,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "8688b7e1aae67bc7",
+        "parentUid" : "40d8046d536ce107f600b1bb559a4ea7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592117978931,
+          "stop" : 1592117980621,
+          "duration" : 1690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      } ],
+      "uid" : "40d8046d536ce107f600b1bb559a4ea7"
+    }, {
+      "name" : "4008-MainThread",
+      "children" : [ {
+        "name" : "test_skpi1",
+        "uid" : "765df024a6b640fc",
+        "parentUid" : "a3ca9116289a3514e27b9d14e3331a3e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592123577509,
+          "stop" : 1592123577509,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail",
+        "uid" : "d95188cc15ae63aa",
+        "parentUid" : "a3ca9116289a3514e27b9d14e3331a3e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592123577511,
+          "stop" : 1592123577511,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "e39a9803f34e6a08",
+        "parentUid" : "a3ca9116289a3514e27b9d14e3331a3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592123575129,
+          "stop" : 1592123576254,
+          "duration" : 1125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "326301f698a6f0ac",
+        "parentUid" : "a3ca9116289a3514e27b9d14e3331a3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592123576258,
+          "stop" : 1592123577501,
+          "duration" : 1243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "test_error",
+        "uid" : "59df92389b26cf3e",
+        "parentUid" : "a3ca9116289a3514e27b9d14e3331a3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592123577513,
+          "stop" : 1592123577513,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "30d9149c576db44c",
+        "parentUid" : "a3ca9116289a3514e27b9d14e3331a3e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592123577504,
+          "stop" : 1592123577504,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3ca9116289a3514e27b9d14e3331a3e"
+    }, {
+      "name" : "3773-MainThread",
+      "children" : [ {
+        "name" : "test_skip",
+        "uid" : "ea9b2eec720d160d",
+        "parentUid" : "07ee512face3e71d8f573115f5bd2ad9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592122650837,
+          "stop" : 1592122650837,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail",
+        "uid" : "1c8e895554b4db4",
+        "parentUid" : "07ee512face3e71d8f573115f5bd2ad9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592122650841,
+          "stop" : 1592122650841,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "f9c3f0712721080f",
+        "parentUid" : "07ee512face3e71d8f573115f5bd2ad9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592122612503,
+          "stop" : 1592122650433,
+          "duration" : 37930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "test_skpi1",
+        "uid" : "2003e3e29132be42",
+        "parentUid" : "07ee512face3e71d8f573115f5bd2ad9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592122650840,
+          "stop" : 1592122650840,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "fc6b7036f7f546b8",
+        "parentUid" : "07ee512face3e71d8f573115f5bd2ad9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592122650493,
+          "stop" : 1592122650834,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "test_error",
+        "uid" : "7011e939e67321de",
+        "parentUid" : "07ee512face3e71d8f573115f5bd2ad9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592122650845,
+          "stop" : 1592122650845,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07ee512face3e71d8f573115f5bd2ad9"
+    }, {
+      "name" : "1778-MainThread",
+      "children" : [ {
+        "name" : "test_add_shopping_trolley",
+        "uid" : "6cec989fddd97134",
+        "parentUid" : "86ad10961c53423be405e2ebe532a7f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592115868974,
+          "stop" : 1592115868976,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_edit_shopping_trolley",
+        "uid" : "78b476711ca0d377",
+        "parentUid" : "86ad10961c53423be405e2ebe532a7f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592115869040,
+          "stop" : 1592115869040,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_shopping_trolley",
+        "uid" : "8507b9b1199c5719",
+        "parentUid" : "86ad10961c53423be405e2ebe532a7f8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592115869041,
+          "stop" : 1592115869041,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86ad10961c53423be405e2ebe532a7f8"
+    }, {
+      "name" : "3754-MainThread",
+      "children" : [ {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "aa78c5f832e5a045",
+        "parentUid" : "53b607371daf0daa97e40fecdbb94302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592122578015,
+          "stop" : 1592122578294,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "4a6c6f41dd0f5e4e",
+        "parentUid" : "53b607371daf0daa97e40fecdbb94302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592122578296,
+          "stop" : 1592122579532,
+          "duration" : 1236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "d19de0fc4fd0e127",
+        "parentUid" : "53b607371daf0daa97e40fecdbb94302",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592122579534,
+          "stop" : 1592122579534,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skpi1",
+        "uid" : "92319347712a925b",
+        "parentUid" : "53b607371daf0daa97e40fecdbb94302",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592122579538,
+          "stop" : 1592122579538,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail",
+        "uid" : "a0eb223424e6ed7d",
+        "parentUid" : "53b607371daf0daa97e40fecdbb94302",
+        "status" : "failed",
+        "time" : {
+          "start" : 1592122579539,
+          "stop" : 1592122579539,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_error",
+        "uid" : "37ee95dd1525fa7f",
+        "parentUid" : "53b607371daf0daa97e40fecdbb94302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592122579544,
+          "stop" : 1592122579544,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53b607371daf0daa97e40fecdbb94302"
+    }, {
+      "name" : "2190-MainThread",
+      "children" : [ {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "8f57e4b499b9a496",
+        "parentUid" : "c9499ecd9e596015382d3f4cec6fae51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592117584896,
+          "stop" : 1592117585751,
+          "duration" : 855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "ba6b379714874819",
+        "parentUid" : "c9499ecd9e596015382d3f4cec6fae51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592117585755,
+          "stop" : 1592117586130,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      } ],
+      "uid" : "c9499ecd9e596015382d3f4cec6fae51"
+    }, {
+      "name" : "3283-MainThread",
+      "children" : [ {
+        "name" : "test_xfail",
+        "uid" : "5355359b97853964",
+        "parentUid" : "17edcc8977f3b0a19553f9ba81926d2d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592120808277,
+          "stop" : 1592120808277,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_error",
+        "uid" : "d5358518bf7df288",
+        "parentUid" : "17edcc8977f3b0a19553f9ba81926d2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592120808340,
+          "stop" : 1592120808340,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skpi1",
+        "uid" : "7b8e993af28108a",
+        "parentUid" : "17edcc8977f3b0a19553f9ba81926d2d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592120808275,
+          "stop" : 1592120808275,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "8c045c2a33255d26",
+        "parentUid" : "17edcc8977f3b0a19553f9ba81926d2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592120806374,
+          "stop" : 1592120806967,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "d9ca184e9e34166a",
+        "parentUid" : "17edcc8977f3b0a19553f9ba81926d2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592120806970,
+          "stop" : 1592120808269,
+          "duration" : 1299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "76ac6f459101e800",
+        "parentUid" : "17edcc8977f3b0a19553f9ba81926d2d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592120808271,
+          "stop" : 1592120808271,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17edcc8977f3b0a19553f9ba81926d2d"
+    }, {
+      "name" : "2638-MainThread",
+      "children" : [ {
+        "name" : "test_error",
+        "uid" : "eefcbe1347152165",
+        "parentUid" : "547a565e8d0975b6ffa995d471448407",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592118880981,
+          "stop" : 1592118880981,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "70f24e52665deb5a",
+        "parentUid" : "547a565e8d0975b6ffa995d471448407",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118880670,
+          "stop" : 1592118880979,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "e87d46f5c3e73f6a",
+        "parentUid" : "547a565e8d0975b6ffa995d471448407",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118880384,
+          "stop" : 1592118880667,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      } ],
+      "uid" : "547a565e8d0975b6ffa995d471448407"
+    }, {
+      "name" : "2824-MainThread",
+      "children" : [ {
+        "name" : "test_skip",
+        "uid" : "1c5bf6dacda124ff",
+        "parentUid" : "bcebbdabdc2c0f0812c2124b6fa28dc5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1592119259672,
+          "stop" : 1592119259672,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "8116f811fcc4dbd4",
+        "parentUid" : "bcebbdabdc2c0f0812c2124b6fa28dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592119259319,
+          "stop" : 1592119259669,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "70cd7b0546201d00",
+        "parentUid" : "bcebbdabdc2c0f0812c2124b6fa28dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592119258949,
+          "stop" : 1592119259315,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "test_error",
+        "uid" : "bc6b34a682cdae2a",
+        "parentUid" : "bcebbdabdc2c0f0812c2124b6fa28dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592119259675,
+          "stop" : 1592119259675,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bcebbdabdc2c0f0812c2124b6fa28dc5"
+    }, {
+      "name" : "2365-MainThread",
+      "children" : [ {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "674f74fe12453e2",
+        "parentUid" : "8cbeecd34efd9df91425c8c15e39bbc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118080344,
+          "stop" : 1592118083842,
+          "duration" : 3498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      }, {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "335d481b8e429362",
+        "parentUid" : "8cbeecd34efd9df91425c8c15e39bbc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592118079857,
+          "stop" : 1592118080341,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      } ],
+      "uid" : "8cbeecd34efd9df91425c8c15e39bbc4"
+    }, {
+      "name" : "1699-MainThread",
+      "children" : [ {
+        "name" : "按订单号查询，订单号：1061246019",
+        "uid" : "68585ea1a7b32a50",
+        "parentUid" : "e3ba1e5d1ceb3978788883bf21bc21f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592115543598,
+          "stop" : 1592115544447,
+          "duration" : 849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1061246019" ]
+      }, {
+        "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+        "uid" : "7c7ef9676b309eba",
+        "parentUid" : "e3ba1e5d1ceb3978788883bf21bc21f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592115544450,
+          "stop" : 1592115544714,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'TCK848518'" ]
+      } ],
+      "uid" : "e3ba1e5d1ceb3978788883bf21bc21f7"
+    } ],
+    "uid" : "1ee2f23941a407ea41c7e99dc7e1e2fd"
+  } ]
+}

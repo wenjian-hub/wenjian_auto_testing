@@ -1,0 +1,91 @@
+[ {
+  "uid" : "6cec989fddd97134",
+  "name" : "test_add_shopping_trolley",
+  "time" : {
+    "start" : 1592115868974,
+    "stop" : 1592115868976,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "30d9149c576db44c",
+  "name" : "test_skip",
+  "time" : {
+    "start" : 1592123577504,
+    "stop" : 1592123577504,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "78b476711ca0d377",
+  "name" : "test_edit_shopping_trolley",
+  "time" : {
+    "start" : 1592115869040,
+    "stop" : 1592115869040,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d95188cc15ae63aa",
+  "name" : "test_xfail",
+  "time" : {
+    "start" : 1592123577511,
+    "stop" : 1592123577511,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "765df024a6b640fc",
+  "name" : "test_skpi1",
+  "time" : {
+    "start" : 1592123577509,
+    "stop" : 1592123577509,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "326301f698a6f0ac",
+  "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+  "time" : {
+    "start" : 1592123576258,
+    "stop" : 1592123577501,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e39a9803f34e6a08",
+  "name" : "按订单号查询，订单号：1061246019",
+  "time" : {
+    "start" : 1592123575129,
+    "stop" : 1592123576254,
+    "duration" : 1125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8507b9b1199c5719",
+  "name" : "test_delete_shopping_trolley",
+  "time" : {
+    "start" : 1592115869041,
+    "stop" : 1592115869041,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "59df92389b26cf3e",
+  "name" : "test_error",
+  "time" : {
+    "start" : 1592123577513,
+    "stop" : 1592123577513,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

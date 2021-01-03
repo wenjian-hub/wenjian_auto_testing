@@ -1,0 +1,146 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest_framework",
+    "children" : [ {
+      "name" : "test_three",
+      "children" : [ {
+        "name" : "TestShoppingTrolley",
+        "children" : [ {
+          "name" : "test_add_shopping_trolley",
+          "uid" : "6cec989fddd97134",
+          "parentUid" : "4f54f1bf9b48850df7b2d165ae6b5079",
+          "status" : "failed",
+          "time" : {
+            "start" : 1592115868974,
+            "stop" : 1592115868976,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_edit_shopping_trolley",
+          "uid" : "78b476711ca0d377",
+          "parentUid" : "4f54f1bf9b48850df7b2d165ae6b5079",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592115869040,
+            "stop" : 1592115869040,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_delete_shopping_trolley",
+          "uid" : "8507b9b1199c5719",
+          "parentUid" : "4f54f1bf9b48850df7b2d165ae6b5079",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1592115869041,
+            "stop" : 1592115869041,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4f54f1bf9b48850df7b2d165ae6b5079"
+      } ],
+      "uid" : "226bbce32b69d1f01d8a274ff104119c"
+    } ],
+    "uid" : "cfb60be2d61136b758243da0233b752a"
+  }, {
+    "name" : "order_search",
+    "children" : [ {
+      "name" : "test_order_num",
+      "children" : [ {
+        "name" : "TestOrderSeach",
+        "children" : [ {
+          "name" : "按订单号查询，订单号：1061246019",
+          "uid" : "e39a9803f34e6a08",
+          "parentUid" : "c0fc568ddeea37984fc68c2934eea6be",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592123575129,
+            "stop" : 1592123576254,
+            "duration" : 1125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1061246019" ]
+        }, {
+          "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+          "uid" : "326301f698a6f0ac",
+          "parentUid" : "c0fc568ddeea37984fc68c2934eea6be",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592123576258,
+            "stop" : 1592123577501,
+            "duration" : 1243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'TCK848518'" ]
+        }, {
+          "name" : "test_skip",
+          "uid" : "30d9149c576db44c",
+          "parentUid" : "c0fc568ddeea37984fc68c2934eea6be",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1592123577504,
+            "stop" : 1592123577504,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_skpi1",
+          "uid" : "765df024a6b640fc",
+          "parentUid" : "c0fc568ddeea37984fc68c2934eea6be",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1592123577509,
+            "stop" : 1592123577509,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_xfail",
+          "uid" : "d95188cc15ae63aa",
+          "parentUid" : "c0fc568ddeea37984fc68c2934eea6be",
+          "status" : "failed",
+          "time" : {
+            "start" : 1592123577511,
+            "stop" : 1592123577511,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_error",
+          "uid" : "59df92389b26cf3e",
+          "parentUid" : "c0fc568ddeea37984fc68c2934eea6be",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592123577513,
+            "stop" : 1592123577513,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c0fc568ddeea37984fc68c2934eea6be"
+      } ],
+      "uid" : "f054ca8e7a5cedea3f4b36328fdeeb0f"
+    } ],
+    "uid" : "ae614e80221983014a83726c5e10a770"
+  } ]
+}

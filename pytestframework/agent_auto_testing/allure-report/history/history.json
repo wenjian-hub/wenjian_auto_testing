@@ -1,0 +1,178 @@
+{
+  "fdfbaf7efca6f6182971b65f07836c8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78b476711ca0d377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592115869040,
+        "stop" : 1592115869040,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ae4db23133e052a9023b9eb8c50ba7b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30d9149c576db44c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 该测试用用例跳过",
+      "time" : {
+        "start" : 1592123577504,
+        "stop" : 1592123577504,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ee3091b53b45dda1d1de9f85e3267f6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8507b9b1199c5719",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 本次不执行",
+      "time" : {
+        "start" : 1592115869041,
+        "stop" : 1592115869041,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2dbd6f0b6aac396e7ab910739ade2de3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d95188cc15ae63aa",
+      "status" : "failed",
+      "statusDetails" : "Failed: [XPASS(strict)] 强制执行跳过",
+      "time" : {
+        "start" : 1592123577511,
+        "stop" : 1592123577511,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9229b33e048d2abef93f5a5bcee8ecef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59df92389b26cf3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123577513,
+        "stop" : 1592123577513,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bf835d9bc4230911e0385e449f31ade4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "765df024a6b640fc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 强制执行跳过",
+      "time" : {
+        "start" : 1592123577509,
+        "stop" : 1592123577509,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c4c8c3f7708b99739ea474807aadd9c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e39a9803f34e6a08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123575129,
+        "stop" : 1592123576254,
+        "duration" : 1125
+      }
+    } ]
+  },
+  "d26890ac186aa45674e0dd421a3abbe9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "326301f698a6f0ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592123576258,
+        "stop" : 1592123577501,
+        "duration" : 1243
+      }
+    } ]
+  },
+  "1aaa2d0041320501feb71f09e51727ee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cec989fddd97134",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'success' == 'failed'\n  - failed\n  + success",
+      "time" : {
+        "start" : 1592115868974,
+        "stop" : 1592115868976,
+        "duration" : 2
+      }
+    } ]
+  }
+}

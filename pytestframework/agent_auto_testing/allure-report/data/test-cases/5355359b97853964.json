@@ -1,0 +1,64 @@
+{
+  "uid" : "5355359b97853964",
+  "name" : "test_xfail",
+  "fullName" : "order_search.test_order_num.TestOrderSeach#test_xfail",
+  "historyId" : "2dbd6f0b6aac396e7ab910739ade2de3",
+  "time" : {
+    "start" : 1592120808277,
+    "stop" : 1592120808277,
+    "duration" : 0
+  },
+  "description" : "\n                强制执行跳过\n                ",
+  "descriptionHtml" : "<pre><code>            强制执行跳过\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "_pytest.outcomes.XFailed: 强制执行失败",
+  "statusTrace" : "self = <order_search.test_order_num.TestOrderSeach object at 0x1083d1e50>\n\n    def test_xfail(self):\n        \"\"\"\n                强制执行跳过\n                \"\"\"\n        sum = 2 + 2\n        assert sum == 4\n>       pytest.xfail(\"强制执行失败\")\nE       _pytest.outcomes.XFailed: 强制执行失败\n\norder_search/test_order_num.py:108: XFailed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "订单查询"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "order_search"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_num"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderSeach"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "3283-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "order_search.test_order_num"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5355359b97853964.json",
+  "parameterValues" : [ ]
+}

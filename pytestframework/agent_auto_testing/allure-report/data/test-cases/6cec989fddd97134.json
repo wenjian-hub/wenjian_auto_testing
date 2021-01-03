@@ -1,0 +1,172 @@
+{
+  "uid" : "6cec989fddd97134",
+  "name" : "test_add_shopping_trolley",
+  "fullName" : "pytest_framework.test_three.TestShoppingTrolley#test_add_shopping_trolley",
+  "historyId" : "1aaa2d0041320501feb71f09e51727ee",
+  "time" : {
+    "start" : 1592115868974,
+    "stop" : 1592115868976,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'success' == 'failed'\n  - failed\n  + success",
+  "statusTrace" : "self = <pytest_framework.test_three.TestShoppingTrolley object at 0x10b8124d0>\n\n    @allure.story('加入购物车')  # 用story说明用户场景，可以理解为JIRA中的Story\n    def test_add_shopping_trolley(self):\n        login('刘春明', '密码')  # 步骤1，调用“step函数”\n        with allure.step(\"浏览商品\"):  # 步骤2，step的参数将会打印到测试报告中\n            allure.attach('笔记本', '商品1')  # attach可以打印一些附加信息\n            allure.attach('手机', '商品2')\n        with allure.step(\"点击商品\"):  # 步骤3\n            pass\n        with allure.step(\"校验结果\"):  # 步骤4\n            allure.attach('添加购物车成功', '期望结果')\n            allure.attach('添加购物车失败', '实际结果')\n>           assert 'success' == 'failed'\nE           AssertionError: assert 'success' == 'failed'\nE             - failed\nE             + success\n\npytest_framework/test_three.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'success' == 'failed'\n  - failed\n  + success",
+    "statusTrace" : "self = <pytest_framework.test_three.TestShoppingTrolley object at 0x10b8124d0>\n\n    @allure.story('加入购物车')  # 用story说明用户场景，可以理解为JIRA中的Story\n    def test_add_shopping_trolley(self):\n        login('刘春明', '密码')  # 步骤1，调用“step函数”\n        with allure.step(\"浏览商品\"):  # 步骤2，step的参数将会打印到测试报告中\n            allure.attach('笔记本', '商品1')  # attach可以打印一些附加信息\n            allure.attach('手机', '商品2')\n        with allure.step(\"点击商品\"):  # 步骤3\n            pass\n        with allure.step(\"校验结果\"):  # 步骤4\n            allure.attach('添加购物车成功', '期望结果')\n            allure.attach('添加购物车失败', '实际结果')\n>           assert 'success' == 'failed'\nE           AssertionError: assert 'success' == 'failed'\nE             - failed\nE             + success\n\npytest_framework/test_three.py:21: AssertionError",
+    "steps" : [ {
+      "name" : "用户登录",
+      "time" : {
+        "start" : 1592115868974,
+        "stop" : 1592115868974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'刘春明'"
+      }, {
+        "name" : "pwd",
+        "value" : "'密码'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "浏览商品",
+      "time" : {
+        "start" : 1592115868974,
+        "stop" : 1592115868974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ba5144e9673a1ec",
+        "name" : "商品1",
+        "source" : "2ba5144e9673a1ec.attach",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c21ba63d3c1b30ff",
+        "name" : "商品2",
+        "source" : "c21ba63d3c1b30ff.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "点击商品",
+      "time" : {
+        "start" : 1592115868974,
+        "stop" : 1592115868974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1592115868974,
+        "stop" : 1592115868976,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'success' == 'failed'\n  - failed\n  + success\n",
+      "statusTrace" : "  File \"/Users/wenjian/Desktop/agent_auto_testing/pytest_framework/test_three.py\", line 21, in test_add_shopping_trolley\n    assert 'success' == 'failed'\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88c1a27af305aa6d",
+        "name" : "期望结果",
+        "source" : "88c1a27af305aa6d.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "c96dbac1b5723379",
+        "name" : "实际结果",
+        "source" : "c96dbac1b5723379.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_framework"
+  }, {
+    "name" : "suite",
+    "value" : "test_three"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "1778-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_framework.test_three"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6cec989fddd97134.json",
+  "parameterValues" : [ ]
+}

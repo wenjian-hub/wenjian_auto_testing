@@ -1,0 +1,81 @@
+{
+  "uid" : "6f92999688029b8c",
+  "name" : "按bookingNum查询，查询bookingNum:TCK848518",
+  "fullName" : "order_search.test_order_num.TestOrderSeach#test_bookingNum",
+  "historyId" : "d26890ac186aa45674e0dd421a3abbe9",
+  "time" : {
+    "start" : 1592118947670,
+    "stop" : 1592118948444,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "account_token",
+    "time" : {
+      "start" : 1592118947173,
+      "stop" : 1592118947420,
+      "duration" : 247
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "按booking num查找订单号"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "订单查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "order_search"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_num"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderSeach"
+  }, {
+    "name" : "host",
+    "value" : "wenjian"
+  }, {
+    "name" : "thread",
+    "value" : "2681-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "order_search.test_order_num"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "orderNum",
+    "value" : "'TCK848518'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f92999688029b8c.json",
+  "parameterValues" : [ "'TCK848518'" ]
+}
