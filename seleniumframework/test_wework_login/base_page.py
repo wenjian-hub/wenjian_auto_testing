@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+
 
 class BasePage:
     _driver: webdriver = None
@@ -23,3 +26,11 @@ class BasePage:
 
     def finds(self, by, locator):
         return self._driver.find_elements(by, locator)
+
+    # 显示等待
+    def wait_for_click(self, locator):
+        WebDriverWait(self._driver, 10).until(expected_conditions.element_to_be_clickable(locator))
+
+    # 有条件显示等待
+    def wait_for_condition(self, condition):
+        WebDriverWait(self._driver, 10).until(condition)
