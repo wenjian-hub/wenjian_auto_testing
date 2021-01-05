@@ -1,12 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
+
+from wenjian_auto_testing.seleniumframework.test_wework_login.base_page import BasePage
 
 
-class Register:
-    def __init__(self, driver: webdriver):
-        self.driver = driver
+class Register(BasePage):
 
     def register(self):
-        self.driver.find_element(By.CSS_SELECTOR, "#corp_name").send_keys("wenjian_auto_testing")
+        """
+        1. 企业注册页面
+        2. 注册信息填写
+        """
+        self.find(By.CSS_SELECTOR, "#corp_name").send_keys("wenjian_auto_testing")
         return True

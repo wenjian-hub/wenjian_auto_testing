@@ -1,13 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+from wenjian_auto_testing.seleniumframework.test_wework_login.base_page import BasePage
 from wenjian_auto_testing.seleniumframework.test_wework_login.register import Register
 
 
-class Login:
-    def __init__(self, driver: webdriver):
-        self.driver = driver
+class Login(BasePage):
 
     def goto_register(self):
-        self.driver.find_element(By.CSS_SELECTOR, ".login_registerBar_link").click()
-        return Register(self.driver)
+        """
+        1. 扫码登录
+        2. 企业账号注册
+        """
+        self.find(By.CSS_SELECTOR, ".login_registerBar_link").click()
+        return Register(self._driver)
